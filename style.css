@@ -1,0 +1,72 @@
+*{
+    border: 1px solid black;
+    text-decoration: none;
+    
+}
+header nav a {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+header h1 {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+body {
+    background-image: url("./Assets/Jordan5.jpg");
+    background-size: cover;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contact-me address {
+    justify-content: space-around;
+    align-items: center;
+}
+.project div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 50%;  
+}
+section p{ 
+    justify-content: space-between;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex: 5 0 90%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    color: white;
+    
+}
+section {
+    font-size: 15px;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    column-width: auto;
+}
+
+#about-me div {
+    font-size: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
